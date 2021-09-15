@@ -1,0 +1,39 @@
+/* HEADER */
+header {
+    background-color: #212121;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding:  40px;
+    margin: 150px;
+}
+
+.column {
+    flex: 50%;
+    padding: 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+h1 {
+    font-size: 38px;
+    display: flex;
+    color:black;
+    padding-top: 10px;
+    font-family: 'Karantina', cursive;
+}
+p {
+    padding-top: 15px;
+    padding-left: 10px;
+    color: black;
+
+}
